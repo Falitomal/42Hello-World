@@ -1,5 +1,5 @@
 # 42Hello-World
-Los primeros pasos para una APP con conexion a la API42
+Los primeros pasos para una APP con conexion a la API42 y en la URI ponemos http://localhost:puerto (en esta parte usaremos 3000)
 De primeras vamos a usar nodjs y express.
 
     Primer paso instalar nodejs, en los macs para ello usamos brew:
@@ -31,3 +31,6 @@ Y vamos a realizar una app basica de conexion con el siguiente codigo.
     });
     
 Y la probamos en terminal node app.js y posteriormente en un navegador tecleamos localhost:3000
+
+Seguimos la guia de la api
+https://api.intra.42.fr/apidoc/guides/getting_started
