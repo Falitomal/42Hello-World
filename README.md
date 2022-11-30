@@ -21,10 +21,10 @@ Y vamos a realizar una app basica de conexion con el siguiente codigo.
     const express = require("express");
     const app = express();
     app.post('/', function (req, res) {
-      res.send('Saludos  express');
+      res.send('[]Saludos desde express');
     });
-    app.get('/hola', function (req, res) {
-      res.send('[GET]Saludos  express');
+    app.get('/', function (req, res) {
+      res.send('[]Saludos desde express');
     });
     app.listen(3000, () => {
      console.log("El servidor está inicializado en el puerto 3000");
