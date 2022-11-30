@@ -15,7 +15,7 @@ Después añadimos express
 
     npm install express --save
     
-Ahora usamos un programa de para editar codigo como VSC y editamos el app.js
+Ahora usamos un programa de para editar codigo como VSC y editamos el app.js (antes creado touch app.js)
 Y vamos a realizar una app basica de conexion con el siguiente codigo.
 
     const express = require("express");
@@ -30,4 +30,4 @@ Y vamos a realizar una app basica de conexion con el siguiente codigo.
      console.log("El servidor está inicializado en el puerto 3000");
     });
     
-Y la probamos en terminal node app.js
+Y la probamos en terminal node app.js y posteriormente en un navegador tecleamos localhost:3000
