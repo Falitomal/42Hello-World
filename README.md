@@ -5,7 +5,7 @@ De primeras vamos a usar nodjs y express.
     Primer paso instalar nodejs, en los macs para ello usamos brew:
     brew install nodejs
 
-Luego creamos un repositorio de mientras carga, creamos un punto en github.
+Luego creamos un repositorio de mientras carga, creamos un repo en github.
 A posterior iniciamos un proyecto de nodejs con:
 
     npm init
